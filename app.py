@@ -3,7 +3,7 @@ import dash_table
 import pandas as pd
 
 # 读取本地Excel文件
-df = pd.read_excel(r"C:\Users\LM\Desktop\建筑储能-清华\清华车辆代码\网页\flight.xlsx",index_col=0)
+df = pd.read_excel("flight.xlsx",index_col=0)
 
 # 创建Dash应用
 app = dash.Dash(__name__)
